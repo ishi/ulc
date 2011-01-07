@@ -1,9 +1,6 @@
 # add line to your ~/.bashrc
 # . /path/to/file/bashrc
 
-# If not running interactively, don't do anything
-[ -z "$PS1" ] && return
-
 # don't put duplicate lines in the history. See bash(1) for more options
 # don't overwrite GNU Midnight Commander's setting of `ignorespace'.
 HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
@@ -65,10 +62,7 @@ alias ll='ls -l'
 alias la='ls -A'
 alias lla='ll -A'
 alias l='ls -CF'
-
-# User specific aliases and functions
 alias emacs='emacs -nw'
 alias cd..='cd ..'
 alias mc='mc -b'
-
 alias tailboss='tail -n 1000 -f /opt/jboss/server/production/log/server.log'
