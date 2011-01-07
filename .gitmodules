@@ -1,0 +1,3 @@
+[submodule "ugc"]
+	path = ugc
+	url = git@github.com:ishi/ugc.git
